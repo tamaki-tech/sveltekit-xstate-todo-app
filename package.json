@@ -24,8 +24,10 @@
 	"type": "module",
 	"dependencies": {
 		"@popperjs/core": "^2.11.7",
+		"@xstate/svelte": "^2.0.1",
 		"classnames": "^2.3.2",
 		"flowbite": "^1.6.5",
-		"flowbite-svelte": "^0.34.10"
+		"flowbite-svelte": "^0.34.10",
+		"xstate": "^4.37.2"
 	}
 }

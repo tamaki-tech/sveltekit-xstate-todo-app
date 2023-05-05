@@ -4,6 +4,7 @@ specifiers:
   '@popperjs/core': ^2.11.7
   '@sveltejs/adapter-auto': ^2.0.0
   '@sveltejs/kit': ^1.5.0
+  '@xstate/svelte': ^2.0.1
   autoprefixer: ^10.4.14
   classnames: ^2.3.2
   flowbite: ^1.6.5
@@ -15,12 +16,15 @@ specifiers:
   tslib: ^2.4.1
   typescript: ^5.0.0
   vite: ^4.3.0
+  xstate: ^4.37.2
 
 dependencies:
   '@popperjs/core': 2.11.7
+  '@xstate/svelte': 2.0.1_gapkdlcyk64mim4i6lz2zqgqp4
   classnames: 2.3.2
   flowbite: 1.6.5
   flowbite-svelte: 0.34.10_gsl4mvplo5s4vvvmoieo76sz2u
+  xstate: 4.37.2
 
 devDependencies:
   '@sveltejs/adapter-auto': 2.0.1_@sveltejs+kit@1.16.0
@@ -513,6 +517,22 @@ packages:
   /@types/pug/2.0.6:
     resolution: {integrity: sha512-SnHmG9wN1UVmagJOnyo/qkk0Z7gejYxOYYmaAwr5u2yFYfsupN3sg10kyzN8Hep/2zbHxCnsumxOoRIRMBwKCg==}
     dev: true
+
+  /@xstate/svelte/2.0.1_gapkdlcyk64mim4i6lz2zqgqp4:
+    resolution: {integrity: sha512-A4QSCt4EpbyzbPIPGCRLoRn50VUq6gXcmJPIwgBaCTsTRsPsp8KSvltDqS2msBKEDr4FHWXEXOC4QVGDWFL5dg==}
+    peerDependencies:
+      '@xstate/fsm': ^2.0.0
+      svelte: ^3.24.1
+      xstate: ^4.35.0
+    peerDependenciesMeta:
+      '@xstate/fsm':
+        optional: true
+      xstate:
+        optional: true
+    dependencies:
+      svelte: 3.58.0
+      xstate: 4.37.2
+    dev: false
 
   /algoliasearch/4.17.0:
     resolution: {integrity: sha512-JMRh2Mw6sEnVMiz6+APsi7lx9a2jiDFF+WUtANaUVCv6uSU9UOLdo5h9K3pdP6frRRybaM2fX8b1u0nqICS9aA==}
@@ -1536,6 +1556,10 @@ packages:
   /wrappy/1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
+
+  /xstate/4.37.2:
+    resolution: {integrity: sha512-Qm337O49CRTZ3PRyRuK6b+kvI+D3JGxXIZCTul+xEsyFCVkTFDt5jixaL1nBWcUBcaTQ9um/5CRGVItPi7fveg==}
+    dev: false
 
   /yaml/2.2.2:
     resolution: {integrity: sha512-CBKFWExMn46Foo4cldiChEzn7S7SRV+wqiluAb6xmueD/fGyRHIhX8m14vVGgeFWjN540nKCNVj6P21eQjgTuA==}
